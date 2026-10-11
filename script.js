@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // 2. Live Player Counter API Fetch
-    const serverIP = "play.fronterra.site"; // Ensure this is your actual join IP
+    const serverIP = "Fronterra.apexmc.com"; // Ensure this is your actual join IP
     const playerCountElement = document.getElementById("playerCount");
     const statusDot = document.getElementById("statusDot");
 
