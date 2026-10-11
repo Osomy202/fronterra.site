@@ -147,16 +147,8 @@ body {
     overflow: hidden;
 }
 
-.btn-store {
-    background: linear-gradient(90deg, #9d4edd, #ff0055);
-    color: white;
-    border: none;
-}
 
-.btn-store:hover {
-    box-shadow: 0 0 25px rgba(255, 0, 85, 0.6);
-    transform: scale(1.05);
-}
+
 
 .btn-discord {
     background-color: #2c2f33;
@@ -180,4 +172,13 @@ body {
     background-color: #2b2b3c;
     border-color: #9d4edd;
     transform: scale(1.05);
+}
+
+/* Unclickable Coming Soon Button */
+.btn-coming-soon {
+    background: #1a1a24;
+    color: #666;
+    border: 2px dashed #4a4a5a;
+    cursor: not-allowed;
+    box-shadow: none;
 }
